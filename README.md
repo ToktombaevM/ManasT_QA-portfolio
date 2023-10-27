@@ -4,9 +4,8 @@
 
 Привет
 
-**Я ТЕСТИРОВЩИК**
 .**Я ТЕСТИРОВЩИК** {
-  font-size: 20px;
+  font-size: 40px;
   font-family: Arial;
 }
 
