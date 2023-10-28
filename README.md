@@ -29,5 +29,34 @@
 
 # Картинки
 
-![Картинка 1](images/image1.png)
-![Картинка 2](images/image2.png)
+Картинка 1: images/image1.png
+Картинка 2: images/image2.png
+
+```css
+/* Общий стиль */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* Заголовки */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+/* Картинки */
+
+img {
+  max-width: 100%;
+}
+
+/* Дополнительные стили */
+
+#portfolio {
+  background-color: #ffffff;
+}
