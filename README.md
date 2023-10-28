@@ -30,7 +30,7 @@
 
 ### Решение
 
-![Mindmap](https://miro.com/app/board/uXjVMV_dsEQ=/?share_link_id=562083448612)_
+[Mindmap](https://miro.com/app/board/uXjVMV_dsEQ=/?share_link_id=562083448612)
 
 **2. Выдели классы эквивалентности и граничные значения**
 
