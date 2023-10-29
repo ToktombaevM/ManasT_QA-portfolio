@@ -34,9 +34,7 @@
 
 <details>
 <summary>Mind-map сервиса</summary>
-
-
-
+IMG/Mind Map.jpg
 </details>
 
 
