@@ -34,6 +34,10 @@
 
 <details>
 <summary>Mind-map сервиса</summary>
+
+   ![Mind Map](https://i.ibb.co/CPN6wv2/blockscheme.jpg)
+
+[Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
 IMG/Mind Map.jpg
 </details>
 
