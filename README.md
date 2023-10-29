@@ -33,12 +33,12 @@
 **1. Составь mind-map сервиса по продаже тортиков**
 
 <details>
-<summary>Mind-map сервиса</summary>
+<summary>Mind map сервиса</summary>
 
-   ![Mind Map](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/9e5d1be44f6df16e7393e5b5eda308cdcf9a831e/IMG/Mind%20Map.jpg)
+![Mind Map](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/9e5d1be44f6df16e7393e5b5eda308cdcf9a831e/IMG/Mind%20Map.jpg)
 
-[Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
-IMG/Mind Map.jpg
+[Mind map в большом разрешении на MIRO](https://miro.com/app/board/uXjVMV_dsEQ=/?share_link_id=605007146557)
+
 </details>
 
 
