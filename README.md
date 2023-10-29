@@ -35,7 +35,7 @@
 <details>
 <summary>Mind-map сервиса</summary>
 
-   ![Mind Map](https://i.ibb.co/CPN6wv2/blockscheme.jpg)
+   ![Mind Map](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/9e5d1be44f6df16e7393e5b5eda308cdcf9a831e/IMG/Mind%20Map.jpg)
 
 [Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
 IMG/Mind Map.jpg
