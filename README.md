@@ -55,6 +55,8 @@
 
 </details>
 
+![Mind Map](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/9e5d1be44f6df16e7393e5b5eda308cdcf9a831e/IMG/Mind%20Map.jpg)
+
 ![Блок-схема](https://i.ibb.co/CPN6wv2/blockscheme.jpg)
 
 [Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
