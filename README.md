@@ -64,8 +64,7 @@
   - Составить высокоуровневый чек-лист.
 
 **РЕШЕНИЕ**  
-![TASK 1](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/8cc525406212ae02ac2c38242f5e1e98ae7af35a/IMG/TASK%201.png)
-
+![TASK 2](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/af535ce865670662d29930dfd9e36b7c3a8043b5/IMG/TASK%202.png)
 </details>
 
 
