@@ -57,6 +57,18 @@
 
 </details>
 
+<details>
+<summary>Задача 2-Протестировать лифт в девятиэтажном доме.</summary> <br>
+   
+ > Что нужно сделать?
+  - Составить высокоуровневый чек-лист.
+
+**РЕШЕНИЕ**  
+![TASK 1](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/8cc525406212ae02ac2c38242f5e1e98ae7af35a/IMG/TASK%201.png)
+
+</details>
+
+
 
 ![Блок-схема](https://i.ibb.co/CPN6wv2/blockscheme.jpg)
 
