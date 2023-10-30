@@ -81,7 +81,7 @@
   - Составить такой набор тестовых данных для автомата, при котором мы гарантированно будем знать, что в соответствии со своими накопленными баллами покупатель получит верную скидку.
 
 **РЕШЕНИЕ**  
-![TASK 3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/3b59ff23a2fa0f76a8d74efcfb76fc1a169ac2bf/IMG/TASK%203.png)
+![TASK 3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/a2c8c01ce1f208b768d4ce170594de717757919a/IMG/TASK%203.png)
 </details>
 
 ![Блок-схема](https://i.ibb.co/CPN6wv2/blockscheme.jpg)
