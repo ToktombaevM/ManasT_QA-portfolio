@@ -53,9 +53,14 @@
  > Что нужно сделать?
   - Составьте низкоуровневый чек-лист. Обязательно предложите конкретные значения тестовых данных.
 
-</details>
+ * РЕШЕНИЕ
 
 ![TASK 1](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/8cc525406212ae02ac2c38242f5e1e98ae7af35a/IMG/TASK%201.png)
+
+
+</details>
+
+
 
 ![Блок-схема](https://i.ibb.co/CPN6wv2/blockscheme.jpg)
 
