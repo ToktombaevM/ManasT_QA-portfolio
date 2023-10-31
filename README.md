@@ -21,7 +21,7 @@
 
     * REST API | JSON | Postman
 
-**Тестирование баз данных**
+[**Тестирование баз данных**](#SQL-testing)<br>
 
     * Консоль | SQL | PostgreSQL
 
@@ -286,7 +286,12 @@
      💡Город рождения - Петрозаводск, Карелия.
 
    [**Файл с JSON-коллекцией Postman _ API Yandex-погода**](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/1b5c6f8f9d7a7c85850fe29666551bbb8da209df/IMG/Yandex%20Weather%20API.postman_collection.json)
-   
+
+
+## <a name="SQL-testing" />Тестирование баз данных
+<br>
+
+
 <details>
 <summary>Требования к сервису Яндекс.Маршруты</summary>
 </details>
