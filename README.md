@@ -199,7 +199,7 @@
 ![TA2](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/f1a2b7514765446fc3f01a988ba12e319ff5d081/IMG/TA2.png)
    </details>
 
-      <details>
+<details>
 <summary>TA-3: Проверить работу выпадающего меню и работоспособность кнопок в выпадающем меню.</summary> <br>
       
 ![TA3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/f1a2b7514765446fc3f01a988ba12e319ff5d081/IMG/TA3.png)
