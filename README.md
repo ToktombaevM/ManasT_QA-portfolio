@@ -193,6 +193,19 @@
 ![TA1](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/1e8a74990cdbf3a3f8e8b5f2103d968e8ea20a4a/IMG/TA1.png)
    </details>
 
+   <details>
+<summary>TA-2: Проверить работу меню на странице</summary> <br>
+      
+![TA2](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/f1a2b7514765446fc3f01a988ba12e319ff5d081/IMG/TA2.png)
+   </details>
+
+      <details>
+<summary>TA-3: Проверить работу выпадающего меню и работоспособность кнопок в выпадающем меню.</summary> <br>
+      
+![TA3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/f1a2b7514765446fc3f01a988ba12e319ff5d081/IMG/TA3.png)
+   </details>
+
+   
 [Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
 
 <details>
