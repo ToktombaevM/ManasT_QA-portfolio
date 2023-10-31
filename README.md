@@ -221,6 +221,8 @@
 
 [**ФАЙЛ в PDF здесь**](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/657afc0b5612227ffa3a489ac8b8279d75744e86/IMG/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B%20%D0%B2%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B5%20PDF.pdf)
 
+***
+
 ## <a name="API-testing" />Тестирование API
 <br>
 
@@ -287,6 +289,7 @@
 
    [**Файл с JSON-коллекцией Postman _ API Yandex-погода**](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/1b5c6f8f9d7a7c85850fe29666551bbb8da209df/IMG/Yandex%20Weather%20API.postman_collection.json)
 
+***
 
 ## <a name="SQL-testing" />Тестирование баз данных
 <br>
