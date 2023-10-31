@@ -1,0 +1,441 @@
+{
+	"info": {
+		"_postman_id": "f0aa5d7d-50c2-4547-a00f-198f96b18e6d",
+		"name": "Yandex Weather API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28322796"
+	},
+	"item": [
+		{
+			"name": "Негативные проверки",
+			"item": [
+				{
+					"name": "Код 404 при введении других символов, кроме чисел lat и lon",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Yandex-API-Key",
+								"value": "{{KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}?lat=/////ап&lon=//ап///&lang={{LANG}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "/////ап"
+								},
+								{
+									"key": "lon",
+									"value": "//ап///"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Позитивные проверки",
+			"item": [
+				{
+					"name": "Запрос без ключа API YANDEX",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 403\", function () {\r",
+									"    pm.response.to.have.status(403);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}?lat=34&lon=45&lang={{LANG}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "34"
+								},
+								{
+									"key": "lon",
+									"value": "45"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								},
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Введение значения lat и lon вне допустимого диапазона",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Yandex-API-Key",
+								"value": "{{KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}?lat=95&lon=195&lang={{LANG}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "95"
+								},
+								{
+									"key": "lon",
+									"value": "195"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Получение прогноза погоды c завышенным лимитом (LIMIT) дней",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"errors\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"limit should be in [1, 11]\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Yandex-API-Key",
+								"value": "{{KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}?lat=43.238293&lon=76.945465&lang={{LANG}}&limit=17&extra=true",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "43.238293"
+								},
+								{
+									"key": "lon",
+									"value": "76.945465"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								},
+								{
+									"key": "limit",
+									"value": "17"
+								},
+								{
+									"key": "extra",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Основное задание - ГОРОДА",
+			"item": [
+				{
+					"name": "Получение прогноза погоды_Петрозаводск",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Yandex-API-Key",
+								"value": "{{KEY}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}?lat=61.7781617&lon=34.3640396&lang={{LANG}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "61.7781617"
+								},
+								{
+									"key": "lon",
+									"value": "34.3640396"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Получение прогноза погоды в штаб квартире Yandex",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Yandex-API-Key",
+								"value": "{{KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}?lat=55.733974&lon=37.587093&lang={{LANG}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "55.733974"
+								},
+								{
+									"key": "lon",
+									"value": "37.587093"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Получение прогноза погоды в штаб квартире GOOGLE",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Yandex-API-Key",
+								"value": "{{KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}?lat=37.422131&lon=-122.08409&lang={{LANG}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "37.422131"
+								},
+								{
+									"key": "lon",
+									"value": "-122.08409"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Получение прогноза погоды в Алматы",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-Yandex-API-Key",
+								"value": "{{KEY}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}?lat=43.238293&lon=76.945465&lang={{LANG}}",
+							"host": [
+								"{{baseURL}}"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "43.238293"
+								},
+								{
+									"key": "lon",
+									"value": "76.945465"
+								},
+								{
+									"key": "lang",
+									"value": "{{LANG}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "KEY",
+			"value": "69bb8e00-ff53-4945-bd40-08187640123a",
+			"type": "string"
+		},
+		{
+			"key": "baseURL",
+			"value": "https://api.weather.yandex.ru/v2/forecast/",
+			"type": "string"
+		},
+		{
+			"key": "LANG",
+			"value": "ru_RU",
+			"type": "string"
+		},
+		{
+			"key": "X-Yandex-API-Key",
+			"value": "X-Yandex-API-Key",
+			"type": "string"
+		}
+	]
+}
