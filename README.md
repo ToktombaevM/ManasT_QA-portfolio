@@ -163,7 +163,7 @@
 <details>
 <summary>Есть ли баги любого типа на приведенных скриншотах? Если есть, опишите все.</summary> <br>
 
-![Mind Map](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/9e5d1be44f6df16e7393e5b5eda308cdcf9a831e/IMG/Mind%20Map.jpg)
+![Screenshot dev](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/59088d98f2217ea753e99f562ead406ae3f9797f/IMG/Screenshot%20dev.png)
       
 - Кнопки “ОК” разного размера и цвета
 - Грамматически некорректно написано “Вы совершен**ноле**тний” (пишется слитно); Не совершеннолетний (пишется слитно).
