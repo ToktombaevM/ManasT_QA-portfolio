@@ -253,6 +253,7 @@
 [**Файл с JSON-коллекцией Postman _ Trello**](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/c173460abc6f0e9cebd48dea7d92a4e13b732403/IMG/API_HW5_trello.postman_collection.json)
 
 <br>
+
 📄**2. Создать коллекцию в Postman для API Yandex-погода** <br>
 
 <details>
