@@ -216,7 +216,9 @@
       
 ![TA3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/e9116dac8925a8831fff31ea305113b3777a9607/IMG/TA5.png)
    </details>
-   
+
+
+ФАЙЛ в PDF здесь
 [Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
 
 <details>
