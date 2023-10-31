@@ -205,6 +205,17 @@
 ![TA3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/f1a2b7514765446fc3f01a988ba12e319ff5d081/IMG/TA3.png)
    </details>
 
+<details>
+<summary>TA-4: При нажатии на логотип банка происходит возврат на главную страницу из других разделов.</summary> <br>
+      
+![TA3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/e9116dac8925a8831fff31ea305113b3777a9607/IMG/TA4.png)
+   </details> 
+
+<details>
+<summary>TA-5: Проверить, что кнопка ПОИСКА на главной странице банка активна и с ее помощью можно найти требуемую информацию.</summary> <br>
+      
+![TA3](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/e9116dac8925a8831fff31ea305113b3777a9607/IMG/TA5.png)
+   </details>
    
 [Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
 
