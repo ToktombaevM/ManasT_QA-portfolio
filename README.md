@@ -284,8 +284,7 @@
 
      💡Город рождения - Петрозаводск, Карелия.
 
-   [**Файл с JSON-коллекцией Postman _ API Yandex-погода**](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/c173460abc6f0e9cebd48dea7d92a4e13b732403/IMG/API_HW5_trello.postman_collection.json)
-
+   [**Файл с JSON-коллекцией Postman _ API Yandex-погода**](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/1b5c6f8f9d7a7c85850fe29666551bbb8da209df/IMG/Yandex%20Weather%20API.postman_collection.json)
    
 <details>
 <summary>Требования к сервису Яндекс.Маршруты</summary>
