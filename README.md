@@ -249,6 +249,8 @@
 - [Получение информации](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-id-get)
 - [Добавление комментария к карточке](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-id-actions-comments-post)
 </details> 
+
+   💡Файл с JSON-коллекцией Postman _ Trello
   
 <details>
 <summary>Требования к сервису Яндекс.Маршруты</summary>
