@@ -332,9 +332,8 @@
 # Контактная информация
 
 * :email:reformator@gmail.com
-* [Ваша ссылка в LinkedIn]
-* [Ваш GitHub]
-
+* :card_index:[ToktombaevM]
+  
 # Резюме
 
 * [Ссылка на ваше резюме]
