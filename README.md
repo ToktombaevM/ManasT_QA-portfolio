@@ -332,7 +332,8 @@
 # Контактная информация
 
 * :email:reformator@gmail.com
-* :card_index:[ToktombaevM]
+* :card_index:[ToktombaevM] GITHUB
+* ![WhatsAPP](https://wa.me/qr/KYUXVDGMEERIF1)
   
 # Резюме
 
