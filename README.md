@@ -170,8 +170,6 @@
    </details>
 
 
-   Есть ли баги любого типа на приведенных скриншотах? Если есть, опишите все.
-
 ![Блок-схема](https://i.ibb.co/CPN6wv2/blockscheme.jpg)
 
 [Блок-схема в большом разрешении](https://i.ibb.co/BndGfjN/blockscheme.jpg)
