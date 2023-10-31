@@ -222,8 +222,33 @@
 [**ФАЙЛ в PDF здесь**](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/657afc0b5612227ffa3a489ac8b8279d75744e86/IMG/%D0%A2%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B%20%D0%B2%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B5%20PDF.pdf)
 
 ## <a name="API-testing" />Тестирование API
-  <br>
+<br>
 
+📄**1. Создать коллекцию в Postman для работы с Trello** <br>
+
+<details>
+<summary>В вашей коллекции должны быть:</summary><br>
+ 
+**✅** Доска. Используйте следующие методы:
+
+- [Создание](https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-post)
+- [Получение](https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-get)
+- [Удаление](https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-delete)
+
+**✅** Списки. Используйте следующие методы:
+
+- [Создание](https://developer.atlassian.com/cloud/trello/rest/api-group-lists/#api-lists-post)
+- [Получение](https://developer.atlassian.com/cloud/trello/rest/api-group-lists/#api-lists-id-get)
+
+**✅** Карточки. Используйте следующие методы:
+
+- [Создание](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-post)
+- [Удаление](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-id-delete)
+- [Изменение названия](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-id-put) (поле name)
+- [Смена списка](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-id-put) (аналогично перетаскиванию из одной колонки в другую — поле idList; для переноса нужно создать еще один список)
+- [Получение информации](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-id-get)
+- [Добавление комментария к карточке](https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-id-actions-comments-post)
+</details> 
   
 <details>
 <summary>Требования к сервису Яндекс.Маршруты</summary>
