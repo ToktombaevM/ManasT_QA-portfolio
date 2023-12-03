@@ -341,5 +341,5 @@
   
 # Резюме
 
-* 	:page_with_curl:[Резюме в формате PDF](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/45b5e44b37cc4e2d5322b44d187f6bcf8270cf74/IMG/Toktombaev%20Manas%20Kadyrbekovich-resume%2023_09_2023_final_QA.pdf)
+* 	:page_with_curl:[Резюме в формате PDF](https://github.com/ToktombaevM/ManasT_QA-portfolio/blob/main/IMG/Resume_Toktombaev%20Manas_GIT%20RUS.pdf)
 
